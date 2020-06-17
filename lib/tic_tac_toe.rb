@@ -144,7 +144,7 @@ def play(board)
   if won?(board)
     puts "Cat's Game!"
   elsif draw?(board)
-    puts "This game is a draw"
+    puts "Cat's Game!"
   elsif !over?(board)
     turn(board)
     play(board)

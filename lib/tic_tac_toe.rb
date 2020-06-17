@@ -144,19 +144,12 @@ end
 
 #puts "Congrats to #{winner(board)}"
 def play(board)
-if won?(board)
-  puts "The winner is #{winner(board)}"
-elsif draw?(board)
-  puts "This game is a draw"
-elsif !over?(board)
-
-if over?(board)
-
-  end
-elsif over?(board)==false
-  turn(board)
-  play
-end
+  if won?(board)
+    puts "The winner is #{winner(board)}"
+  elsif draw?(board)
+    puts "This game is a draw"
+  elsif !over?(board)
+    turn(board)
 
 
 #puts won?(board)

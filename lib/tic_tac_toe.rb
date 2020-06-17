@@ -148,7 +148,8 @@ if won?(board)
   puts "The winner is #{winner(board)}"
 elsif draw?(board)
   puts "This game is a draw"
-
+elsif !over?(board)
+  
 if over?(board)
 
   end

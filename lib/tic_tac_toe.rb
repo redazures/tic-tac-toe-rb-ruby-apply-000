@@ -66,18 +66,6 @@ def turn(board)
   #puts 1+converted_number
 end
 
-
-def turn2(board)
-  puts "Please enter 1-9:"
-  input=gets.strip
-  index=input_to_index(input)
-  if valid_move?(board,index)
-    move(board,index)
-    display_board(board)
-  else
-    turn(board)
-  end
-end
 #This line divides the two parts of this game. The above the dynamics of motion for this game
 #The below is the play method which is at the bottom. The other methods evaluate whether or not the game has been won
 

@@ -9,7 +9,7 @@ board7 =["X"," "," "," ","X"," "," "," ","X"]
 board8 =[" "," ","X"," ","X"," ","X"," "," "]
 board9= ["O","O","O"," "," "," "," "," "," "]
 board10=["X","O","X","O","X","X","O","X","O"]
-board11=["X","X","X"," "," "," "," "," "," "]
+board11=["X","O","X","O"," "," "," "," "," "]
 win_arrays= [board1,board2,board3,board4,board5,board6,board7,board8]
 
 #This is the display function

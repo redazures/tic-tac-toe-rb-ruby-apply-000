@@ -151,6 +151,8 @@ def play(board)
   elsif !over?(board)
     turn(board)
     play(board)
+  end
+end
 
 
 #puts won?(board)

@@ -151,5 +151,3 @@ def play(board)
 end
 
 play(board9)
-
-#puts won?(board)

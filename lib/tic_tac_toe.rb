@@ -138,9 +138,6 @@ board = ["X","O","X","O","X","X","O"," ","O"]
 
 puts won?(board)
 puts over?(board)
-if !over?(board)
-  turn2(board)
-end
 
 #puts "Congrats to #{winner(board)}"
 def play(board)

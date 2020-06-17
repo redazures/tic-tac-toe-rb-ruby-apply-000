@@ -137,6 +137,7 @@ end
 
 board12 = ["X","O","X","O","X","X","O"," ","O"]
 
+board
 #puts "Congrats to #{winner(board)}"
 def play(board)
   if won?(board)

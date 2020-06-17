@@ -150,6 +150,7 @@ def play(board)
     puts "This game is a draw"
   elsif !over?(board)
     turn(board)
+    play(board)
 
 
 #puts won?(board)

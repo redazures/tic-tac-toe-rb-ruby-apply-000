@@ -149,7 +149,7 @@ if won?(board)
 elsif draw?(board)
   puts "This game is a draw"
 elsif !over?(board)
-  
+
 if over?(board)
 
   end

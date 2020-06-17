@@ -135,10 +135,7 @@ def winner(board)
   end
 end
 
-board = ["X","O","X","O","X","X","O"," ","O"]
-
-puts won?(board)
-puts over?(board)
+board12 = ["X","O","X","O","X","X","O"," ","O"]
 
 #puts "Congrats to #{winner(board)}"
 def play(board)

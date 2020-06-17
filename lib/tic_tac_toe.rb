@@ -142,7 +142,6 @@ board=board11
 #puts "Congrats to #{winner(board)}"
 def play(board)
   if won?(board)
-    puts "The winner is #{winner(board)}"
     puts "Cat's Game!"
   elsif draw?(board)
     puts "This game is a draw"
